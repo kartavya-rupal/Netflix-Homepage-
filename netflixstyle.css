@@ -1,0 +1,298 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/335ddde7-3955-499c-b4cc-ca2eb7e1ae71/a7d20bc1-831c-4f9d-8153-11bdf7a08d23/IN-en-20240624-POP_SIGNUP_TWO_WEEKS-perspective_WEB_13cda806-d858-493e-b4aa-f2792ff965dc_small.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 85vh;
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 60px 90px -12px inset, rgba(0, 0, 0, 0.3) 0px 100px 56px -8px inset;
+}
+.main .box{
+    height: 85vh;
+    width: 100%;
+    opacity: 0.6;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+nav{
+    max-width: 75vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+nav img{
+    top: 15px;
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    top: 10px;
+    position: relative;
+    z-index: 10;
+}
+.subs{
+    font-family: "Martel Sans", sans-serif;
+    height: calc(100% - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 20px;
+    padding: 0px 30px;
+}
+.subs> :first-child{
+    word-spacing: -5px;
+    font-size: 45px;
+    letter-spacing: -1px;
+    font-weight: 800;
+    text-align: center;
+}
+.subs> :nth-child(2){
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+}
+.subs> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.separate{
+    height: 8px;
+    background-color: rgb(46, 44, 44);
+    opacity: 0.8;
+}
+.btnlang{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    max-width: 9vw;
+}
+.btn{
+    padding: 3px 8px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 0.45rem 0.9rem;
+    border-radius: 0.25rem;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.btnred:hover{
+    background-color: rgb(182, 25, 25);
+}
+.btnred{
+    transition: all 0.2s ease-out;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.84rem 2rem;
+    border-radius: 0.3rem;
+    background-color: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(229, 9, 20);
+    cursor: pointer;
+}
+.navbtn{
+    display: flex;
+    gap: 22px;
+}
+.btnred svg{
+    margin-right: -10px;
+}
+.subbtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+.main input{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 1.2rem 3.5rem;
+    padding-left: 0.8rem;
+    padding-right: 10.5rem;
+    border-radius: 0.25rem;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.btnredsm:hover{
+    background-color: rgb(182, 25, 25);
+}
+.btnredsm{
+    transition: all 0.2s ease-out;
+    padding: 0.35rem 0.85rem;
+    border-radius: 0.25rem;
+    background-color: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(229, 9, 20);
+    cursor: pointer;
+}
+.gsarrow{
+    color: white;
+
+}
+.first{
+    font-family: "Martel Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 75vw;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+.secimg{
+    position: relative;
+}
+.secimg img{
+    position: relative;
+    z-index: 10;
+    width: 40vw;
+}
+.secimg video{
+    position: absolute;
+    width: 39.5vw;
+    height: 35.8vh;
+    top: 96px;
+    right: 0;
+}
+.first > div{
+    display: flex;
+    flex-direction: column;
+}
+.first > div :first-child{
+    margin-bottom: 30px;
+    word-spacing: -5px;
+    font-size: 45px;
+    letter-spacing: -1px;
+    font-weight: 800;
+}
+.first > div :nth-child(2){
+    font-weight: 400;
+    font-size: 23px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}    
+.fourth .secimg img{
+    width: 37vw;
+}
+.second .secimg img{
+    width: 37vw;
+}
+.third .secimg img{
+    width: 37.5vw;
+}
+.third .secimg video{
+    width: 25vw;
+    top: 15px;
+    left: 93px;
+}
+.faq h2 {
+    max-width: 70vw;
+    margin: auto;
+    text-align: center;
+    word-spacing: 3px;
+    font-size: 45px;
+    letter-spacing: -1px;
+    font-weight: 800;
+    margin-bottom: -10px;
+    margin-top: 40px;
+}
+
+.faq {
+    font-family: "Martel Sans", sans-serif;
+    background: black;
+    color: white;
+    padding: 34px;
+    margin-bottom: 40px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 0.2s ease-out;
+    font-size: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 72vw;
+    margin: 34px auto;
+    margin-bottom: -25px;
+    cursor: pointer;
+}
+.ea{
+    font-family: "Martel Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    margin-top: 75px;
+}
+.ea span{
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 20px;
+}
+footer {
+    font-family: "Martel Sans", sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+
+footer .questions {
+    padding: 15px 0;
+    margin-left: -115px;
+}
+.footeritem{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 70vw;
+    margin: auto;
+    margin-left: -115px;
+}
+a{
+    color: rgba(255, 255, 255, 0.7);
+}
+h4{
+    margin-top: 5px;
+    font-weight: 10;
+    font-size: 15px;
+}
+
