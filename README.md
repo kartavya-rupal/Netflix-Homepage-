@@ -14,7 +14,7 @@ Footer Section: Includes links to various pages and legal information.<br>
 <br>
 Project Structure :<br>
 The project consists of the following files:<br>
-README.md: A readme file specifying the process behind the project.<br>
+README.md: A readme file specifying the details of the project.<br>
 netflix.html: The main HTML file containing the structure of the webpage.<br>
 netflixstyle.css: The CSS file containing the styling for the webpage.
 <br>
